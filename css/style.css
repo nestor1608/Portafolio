@@ -12,7 +12,7 @@ header {
     font-size: 40px;
 }
 #imagen{
-    background: url("../img/lenguaje_de_programacion.jpg") no-repeat fixed;
+     background: url("../img/lenguaje_de_programacion.jpg") no-repeat fixed;/* acordate que tenes que agregar "../url" para que funcione en git page */
     border-radius: 15px;
 }
 .container a {
