@@ -1,6 +1,6 @@
 
 header {
-    background: url(":/img/programacion.jpg") no-repeat center fixed;
+    background: url("/img/programacion.jpg") no-repeat center fixed;
     background-size: cover;
     height: 100%;
 }
@@ -12,7 +12,7 @@ header {
     font-size: 40px;
 }
 #imagen{
-    background: url(":/img/lenguaje-de-programacion.jpg") no-repeat fixed;
+    background: url("/img/lenguaje_de_programacion.jpg") no-repeat fixed;
     border-radius: 15px;
 }
 .container a {
@@ -95,7 +95,7 @@ ul li {
     font-size: 25px;
 }
 #contacto{
-    background: url(":/img/fondo\ programa.png");
+    background: url("/img/fondo_programa.png");
 }
 #contacto input{
     background:rgb(218, 214, 214);
