@@ -27,14 +27,20 @@ h1:hover{
     font-size: 45px;
     color: gray;
 }
+
 ul li {
+    color: aliceblue;
     font-weight: 400;
     font-size: 20px;
     font-weight: 500;
 }
+ul li:hover{
+    color:cadetblue;
+}
+
 .ul{
     font-weight: 900;
-    width: 15em;
+    
 }
 #icon{
     font-size: 48px;
@@ -59,7 +65,6 @@ ul li {
     margin-top: 6em;
 }
 #habilidades{
-    height: 30em;
     margin-top: 6em;
     background:linear-gradient(to top, grey, white);
 }
@@ -144,5 +149,15 @@ footer{
     }
     #logo-inicio, #titulo-nav{
         display: none;
+    }
+    #ul{
+        width:100%;
+    }
+    .carousel-item{
+        height:100%;
+        width: 100%;
+    }
+    #sobre-mi{
+        font-size: 16px;
     }
 }
