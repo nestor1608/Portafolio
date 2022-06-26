@@ -65,7 +65,7 @@ ul li:hover{
     margin-top: 6em;
 }
 #habilidades{
-    margin-top: 6em;
+    margin-top: 4em;
     background:linear-gradient(to top, grey, white);
 }
 #nombre{
@@ -99,14 +99,15 @@ ul li:hover{
 }#sobre-mi p{
     font-size: 25px;
 }
-#contacto{
+#contacto, #contacto2{
     background: url("../img/fondo_programa.png");
 }
-#contacto input{
+
+#contacto input, #contacto2 input {
     background:rgb(218, 214, 214);
     width: 100%;
     height: 2.5em;
-    margin: 5px;
+    margin-top: 5px;
     border: 0px;
     border-bottom: 3px;
     box-shadow: 5px 3px 8px rgb(184, 180, 180);
@@ -120,8 +121,7 @@ color: black;
 textarea{
     background:rgb(218, 214, 214);
     width: 100%;
-    margin: 5px;
-    border: 0px;
+    margin-top: 5px;
     border-bottom: 3px;
     box-shadow: 5px 3px 8px grey;
 }
@@ -133,7 +133,50 @@ footer{
     height: 120px;
     background:linear-gradient(to top,rgba(110, 107, 107, 0),grey);
 }
-@media screen and (max-width:480px) {
+/* --------------ABOUT----------------- */
+#h-about{
+    background:  url("../img/programacion.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+.header-about{
+    background:grey ;
+    color: beige;
+}
+#main-about{
+    background: linear-gradient(to bottom, grey, white 90%, grey);
+}
+#main-about .container{
+    border: 2px solid darkslategrey;
+}
+#img-about{
+    transition: width 5s height 6s;
+}
+#img-about:hover{
+    width: 10em;
+}
+th ul li {
+    list-style: none;
+    color: black;
+}
+#about-img{
+    height:4em;
+    width: auto;
+}
+#list-about{
+    list-style: none;
+}
+/* -------------------ACTUALMENTE--------- */
+#card ul li{
+    color: rgb(red, green, blue);
+}
+#btn-actual{
+    width:100%;
+    transition: 1s;
+}
+#btn-actual:hover{
+    width:300px ;
+}
+@media screen and (max-width:580px) {
     .nav{
         width: 100%;
     }
@@ -147,7 +190,7 @@ footer{
     #porta{
         display: none;
     }
-    #logo-inicio, #titulo-nav{
+    #logo-inicio, #titulo-nav, #mapa, #contacto, #li-des, #img-about{
         display: none;
     }
     #ul{
@@ -160,4 +203,5 @@ footer{
     #sobre-mi{
         font-size: 16px;
     }
+
 }

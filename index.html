@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Macondo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -22,7 +22,7 @@
         <div class="container-fluid container-lg  " id="nav">
             <div class="row justify-content-lg-between justify-content-sm-center">
                 <div class=" col-2 d-lg-flex d-sm-none" id="logo-inicio">
-                    <img class="img-fluid rounded-circle m-2 " src="img/Chino.png" style="height: 10em;">
+                    <img class="img-fluid rounded-circle m-2 " src="img/Chino_chica.png" style="height: 10em;">
                 </div>
                 <div class="col-6 my-auto text-center" id="titulo-nav">
                     <a class="icon text-light text-decoration-none mt-2 d-sm-none d-lg-block" href="#">
@@ -42,9 +42,11 @@
                             <a class="nav-link active text-light text-reset" href="#conocimientos" tabindex="-1"
                                 aria-disabled="true">Conocimientos y Servicios</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-light text-reset" href="#contacto" tabindex="-1"
-                                aria-disabled="true">Contacto</a>
+                        <li class="nav-link active text-light d-md-none  d-lg-none "><a
+                                class="text-reset text-decoration-none" href="/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-link active text-light d-sm-none d-md-block  d-lg-block " id="li-des"><a
+                                class="text-reset text-decoration-none" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -133,7 +135,9 @@
                         conocimientos, colaborando en un ambiente donde pueda participar de un proyecto. Tengo la
                         convicción de que mis conocimientos podría ser muy útiles, y beneficiar tanto como en el
                         desarrollo institucional, personal y colectivo de cualquier grupo.</p>
-                    <button class=" btn-lg btn-primary rounded-pill mt-5">Descargar CV</button>
+                    <button class=" btn-lg btn-primary rounded-pill mt-5 shadow" id="btn-actual"><a
+                            class="fa fa-info text-reset fs-4 fw-bold text-decoration-none" href="/about.html"> nformacion</a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -146,21 +150,18 @@
                     <h1 class=" mb-4">Conocimientos y Servicios</h1>
                 </a>
 
-                <div class="col-lg-3 col-sm-10 m-2">
+                <div class="col-lg-3 col-sm-10 m-2 ">
                     <div class="card p-sm-3 ">
-                        <img class=" card-img-top img-fluid" src="img/fron end.png">
+                        <img class=" card-img-top img-fluid " src="img/fron end.png">
                         <h3>Front End</h3>
-                        <p>Conocimeintos en CSS Avansado. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Dolore quibusdam voluptatibus facilis, fugiat consectetur sequi labore aperiam !</p>
+                        <p>Se desarrollar aplicaciones responsive, que se adapten a a las necesidades visuales, esteticas, y funcionales, tanto del cliente como del empleador.  </p>
                     </div>
-
                 </div>
                 <div class="col-lg-3 col-sm-10 m-2">
                     <div class="card p-sm-3 ">
                         <img class=" card-img-top img-fluid" src="img/django.png">
                         <h3>FrameWork</h3>
-                        <p>Conocimeintos en CSS Avansado. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Dolore quibusdam voluptatibus facilis, fugiat consectetur sequi labore aperiam !</p>
+                        <p>Sé utilizar Framework que hacen mucho mas efectivo el trabajo y reduce las horas de trabajo. DJANGO, FLASK, ANGULAR, entre otros..</p>
                     </div>
 
                 </div>
@@ -169,8 +170,7 @@
                         <img class=" card-img-top img-fluid" src="img/mysql-vs-sql.png">
                         <div>
                             <h3>Back End</h3>
-                            <p>Conocimeintos en CSS Avansado. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Dolore quibusdam voluptatibus facilis, fugiat consectetur sequi labore aperiam !</p>
+                            <p>Tengo conocimiento en maquetaciones y diagramación logica de  Base de Datos. Middleware </p>
                         </div>
                     </div>
 
@@ -180,8 +180,7 @@
                         <img class=" card-img-top img-fluid" src="img/descarga1.png">
                         <div>
                             <h3>Lenguajes </h3>
-                            <p>Conocimeintos en CSS Avansado. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Dolore quibusdam voluptatibus facilis, fugiat consectetur sequi labore aperiam !</p>
+                            <p> Me adapto a las tecnologias venideras. busco la constante evolucion y actualizacion de nuevos saberes en tecnologia para poder adaptarlas a los proyectos personales. y estar a la vanguardia.</p>
                         </div>
                     </div>
 
@@ -191,10 +190,16 @@
                         <img class=" card-img-top img-fluid mt-1" src="img/GIT.jpg">
                         <div>
                             <h3> Git Y GitHub </h3>
-                            <p>Conocimeintos en CSS Avansado. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Dolore quibusdam voluptatibus facilis, fugiat consectetur sequi labore aperiam !</p>
+                            <p>Manejo el Sofware de control de versiones de codigo para poder hacer mas eficiente el trabajo, y poder trabajar en equipos en proyectos. </p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-2">
+            <div class="row justify-content-lg-center justify-content-sm-center ">
+                <div class="col-lg-2 col-sm-10 text-center " >
+                    <button class="btn btn-success rounded-pill shadow border border-2 text-center p-2"  id="btn-actual"><a class="text-reset text-decoration-none my-auto" href="/actual.html">Actualmente</a></button>
                 </div>
             </div>
         </div>
@@ -205,36 +210,30 @@
                     <div class="card border-0 text-center" id="servi">
                         <h2>Diseño y Logica</h2>
                         <img class="img-fluid" src="img/forntend-vs-backend.jpg">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam quia porro unde, error
-                            corporis maiores sequi numquam quod laboriosam reiciendis a vero omnis. Maiores deserunt
-                            voluptates exercitationem rem. At.</p>
+                        <p> Al tener conocimiento y trabajar con varios framework e adquirido conocimientos tanto de frontend como de backend. Me concidero una persona apta para trabajar en estos ambos sectores. Ambos sectores me presentan singular atracción por lo cual me adapto a ambos. </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-10 mx-auto">
                     <div class="card border-0 text-center" id="servi">
                         <h2>Integracion de Redes Sociales</h2>
                         <img src="img/redes.jpg">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam quia porro unde, error
-                            corporis maiores sequi numquam quod laboriosam reiciendis a vero omnis. Maiores deserunt
-                            voluptates exercitationem rem. At.</p>
+                        <p>Se realizar la integracion de varias plataformas sociales las cuales son muy importantes en el sector de Marketing de un empresa. Y vincular proyectos a estas.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-10 mx-auto">
                     <div class="card border-0 text-center" id="servi">
                         <h2> Diseños Responsive</h2>
                         <img class="img-fluid" src="img/responsive.jpg">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam quia porro unde, error
-                            corporis maiores sequi numquam quod laboriosam reiciendis a vero omnis. Maiores deserunt
-                            voluptates exercitationem rem. At.</p>
+                        <p> Tengo amplio conocimiento en las tecnologia de adaptacion de sitios web a los diferentes dispositivos moviles. Algo muy importante en estos tiempos que la tecnologia  avanza a pasos agigantados en el sector de visualizacion. </p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid text-center" id="contacto">
-            <div class="row justify-content-center">
+        <div class="container-fluid text-center d-lg-block d-md-block d-sm-none" id="contacto">
+            <div class="row justify-content-lg-center justify-content-md-center">
                 <h2 class="text-light text-decoration-underline mt-3">Formulario de Contacto</h2>
-                <div class="col-lg-3 col-sm-6 text-center">
+                <div class="col-lg-3 col-md-10 text-center">
                     <form class="m-3">
                         <table>
                             <tr>
