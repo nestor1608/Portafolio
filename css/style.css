@@ -167,7 +167,7 @@ th ul li {
 }
 /* -------------------ACTUALMENTE--------- */
 #card ul li{
-    color: rgb(red, green, blue);
+    color: black;
 }
 #btn-actual{
     width:100%;
